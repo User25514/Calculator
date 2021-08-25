@@ -29,8 +29,7 @@ class Filter():
                 total **= x
             elif symbol == 6:
                 total //= x
-        symbol = 0
-        return symbol, total
+        return 0, total
 
     def symbolFilter(self, x):
         if x == "+":
